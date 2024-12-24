@@ -10,7 +10,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/ysdragon/ssh.git
+    git clone https://github.com/lipey1/ssh.git
     cd ssh
     ```
 
