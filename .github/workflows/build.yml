@@ -41,8 +41,6 @@ jobs:
           name: ssh-${{ matrix.arch }}
           path: ssh-${{ matrix.arch }}
       - name: Upload Release Asset
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           export TAG_NAME="${{ github.event.release.tag_name }}"
           export REF_NAME="${{ github.ref_name }}"
