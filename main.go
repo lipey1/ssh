@@ -205,7 +205,7 @@ func main() {
 
 	color.Yellow("  - Press 'q' to exit.")
 
-	// Start the SSH server in a separate goroutine
+	// Start the SSH server in a separate goroutine @lipey1
 	go func() {
 		log.Fatal(server.ListenAndServe())
 	}()
